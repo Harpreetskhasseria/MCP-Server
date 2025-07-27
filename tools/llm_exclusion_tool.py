@@ -129,3 +129,5 @@ Regulator: {regulator}
             "url": url,
             "exclusion_file": str(output_path)
         }
+
+llm_exclusion_tool = LLMExclusionTool()

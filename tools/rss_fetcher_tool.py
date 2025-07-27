@@ -6,7 +6,7 @@ from pathlib import Path
 from crewai.tools import BaseTool
 
 # ✅ Absolute path to save RSS outputs
-OUTPUT_DIR = Path(r"C:\Users\hp\Documents\Agent Store 1 - Copy\regulatory_outputs\site_outputs")
+OUTPUT_DIR = Path("regulatory_outputs/site_outputs")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
